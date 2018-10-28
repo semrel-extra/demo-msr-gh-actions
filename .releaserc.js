@@ -18,5 +18,8 @@ module.exports = {
   verifyConditions: [
     '@semantic-release/npm',
     '@semantic-release/git'
+  ],
+  analyzeCommits: [
+    '@semantic-release/commit-analyzer'
   ]
 };
