@@ -19,7 +19,9 @@ module.exports = {
     '@semantic-release/npm',
     '@semantic-release/git'
   ],
-  analyzeCommits: [
-    '@semantic-release/commit-analyzer'
-  ]
+  monorepo: {
+    analyzeCommits: [
+      '@semantic-release/commit-analyzer'
+    ]
+  }
 };
