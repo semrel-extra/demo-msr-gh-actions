@@ -1,0 +1,37 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "name": "@antongolub/release-testing",
+  "version": "1.0.0",
+  "description": "Testing repo for release tools",
+  "main": "index.js",
+  "scripts": {
+    "clean": "lerna clean --yes && lerna run clean",
+    "build": "yarn clean && lerna run --stream build",
+    "test": "yarn clean && lerna run --stream test",
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antongolub/release-testing.git"
+  },
+  "author": "Anton Golub <mailbox@antongolub.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antongolub/release-testing/issues"
+  },
+  "homepage": "https://github.com/antongolub/release-testing#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^2.1.1",
+    "@semantic-release/git": "6.0.1",
+    "@semantic-release/github": "4.2.18",
+    "@semantic-release/npm": "3.3.4",
+    "@semantic-release/release-notes-generator": "6.1.1",
+    "semantic-release": "15.6.6",
+    "semantic-release-monorepo": "6.0.3",
+    "semantic-release-monorepo-hooks": "2.6.1",
+    "lerna": "^3.4.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@antongolub/release-testing-package-third",
+  "version": "1.0.0",
+  "description": "release-testing-package-third",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antongolub/release-testing.git"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "exit 0"
+  },
+  "author": "",
+  "license": "MIT"
+}
