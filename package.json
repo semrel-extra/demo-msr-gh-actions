@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antongolub/release-testing.git"
+    "url": "//github.com/antongolub/release-testing"
   },
   "author": "Anton Golub <mailbox@antongolub.ru>",
   "license": "MIT",

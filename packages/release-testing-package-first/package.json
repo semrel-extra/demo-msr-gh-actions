@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antongolub/release-testing.git"
+    "url": "https://github.com/antongolub/release-testing.git"
   },
   "files": [
     "README.md",
