@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-third-v1.2.0](https://github.com/antongolub/release-testing.git/compare/v1.1.3...v1.2.0) (2018-10-29)
+
+
+### Features
+
+* tech release. migrate to repo-hooks [@2](https://github.com/2).6.2 ([f003a75](https://github.com/antongolub/release-testing.git/commit/f003a75))
+
 # [@antongolub/release-testing-package-third-v1.1.3](https://github.com/antongolub/release-testing.git/compare/v1.1.2...v1.1.3) (2018-10-29)
 
 
