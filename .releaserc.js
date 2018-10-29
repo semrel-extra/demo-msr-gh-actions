@@ -22,6 +22,9 @@ module.exports = {
   monorepo: {
     analyzeCommits: [
       '@semantic-release/commit-analyzer'
+    ],
+    generateNotes: [
+      '@semantic-release/release-notes-generator'
     ]
   }
 };
