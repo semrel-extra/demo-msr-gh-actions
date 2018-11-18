@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-third-v1.2.1](https://github.com/antongolub/release-testing/compare/v1.2.0...v1.2.1) (2018-11-18)
+
+
+### Performance Improvements
+
+* tech release ([762b095](https://github.com/antongolub/release-testing/commit/762b095))
+
 # [@antongolub/release-testing-package-third-v1.2.0](https://github.com/antongolub/release-testing.git/compare/v1.1.3...v1.2.0) (2018-10-29)
 
 
