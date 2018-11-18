@@ -29,7 +29,10 @@ module.exports = {
   },
   monorepoHooks: {
     afterAll: {
-      cmd: ['echo "foobar"', 'node -e "console.log(\'Hello\')"']
+      cmd: [
+        'echo "foobar"',
+        'node -e "console.log(\'Hello\')"'
+      ]
     }
   }
 };
