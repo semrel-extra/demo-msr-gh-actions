@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-third-v1.2.2](https://github.com/antongolub/release-testing/compare/v1.2.1...v1.2.2) (2018-11-18)
+
+
+### Bug Fixes
+
+* tech release, test logging for post-release steps ([0c44d93](https://github.com/antongolub/release-testing/commit/0c44d93))
+
 # [@antongolub/release-testing-package-third-v1.2.1](https://github.com/antongolub/release-testing/compare/v1.2.0...v1.2.1) (2018-11-18)
 
 
