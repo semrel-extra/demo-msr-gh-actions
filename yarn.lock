@@ -3984,7 +3984,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-read-pkg@^4.0.0, read-pkg@^4.0.1:
+read-pkg@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-4.0.1.tgz#963625378f3e1c4d48c85872b5a6ec7d5d093237"
   dependencies:
@@ -4190,14 +4190,12 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
-semantic-release-monorepo-hooks@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-monorepo-hooks/-/semantic-release-monorepo-hooks-2.8.0.tgz#5de3e8cde5745797aeb507d3828093f900d4e703"
+semantic-release-monorepo-hooks@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-monorepo-hooks/-/semantic-release-monorepo-hooks-2.9.0.tgz#fed58feea9aba032ebdc6e990bd5394ca6d0c63f"
   dependencies:
     app-root-path "^2.1.0"
     lodash "^4.17.11"
-    read-pkg "^4.0.1"
-    semver "^5.6.0"
 
 semantic-release-monorepo@6.1.1:
   version "6.1.1"

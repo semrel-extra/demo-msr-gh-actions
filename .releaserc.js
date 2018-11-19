@@ -26,13 +26,5 @@ module.exports = {
     generateNotes: [
       '@semantic-release/release-notes-generator'
     ]
-  },
-  monorepoHooks: {
-    afterAll: {
-      cmd: [
-        'echo "foobar"',
-        'node -e "console.log(\'Hello\')"'
-      ]
-    }
   }
 };
