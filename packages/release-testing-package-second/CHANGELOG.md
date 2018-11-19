@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-second-v1.4.1](https://github.com/antongolub/release-testing/compare/v1.4.0...v1.4.1) (2018-11-19)
+
+
+### Performance Improvements
+
+* tech release, test ext logging ([2a3a5e3](https://github.com/antongolub/release-testing/commit/2a3a5e3))
+
 # [@antongolub/release-testing-package-second-v1.4.0](https://github.com/antongolub/release-testing/compare/v1.3.0...v1.4.0) (2018-11-19)
 
 
