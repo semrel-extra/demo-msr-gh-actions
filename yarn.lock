@@ -4190,9 +4190,9 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
-semantic-release-monorepo-hooks@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-monorepo-hooks/-/semantic-release-monorepo-hooks-2.9.0.tgz#fed58feea9aba032ebdc6e990bd5394ca6d0c63f"
+semantic-release-monorepo-hooks@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/semantic-release-monorepo-hooks/-/semantic-release-monorepo-hooks-2.9.1.tgz#75012e78239a7386a6d9530d8a060f473f7a1f6c"
   dependencies:
     app-root-path "^2.1.0"
     lodash "^4.17.11"
