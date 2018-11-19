@@ -1,3 +1,15 @@
+# [@antongolub/release-testing-package-third-v1.3.0](https://github.com/antongolub/release-testing/compare/v1.2.2...v1.3.0) (2018-11-19)
+
+
+### Features
+
+* test cmd injection for legacy flow ([b8fa32a](https://github.com/antongolub/release-testing/commit/b8fa32a))
+
+
+### Performance Improvements
+
+* **travis:** tune up hooks injection ([bb140a3](https://github.com/antongolub/release-testing/commit/bb140a3))
+
 # [@antongolub/release-testing-package-third-v1.2.2](https://github.com/antongolub/release-testing/compare/v1.2.1...v1.2.2) (2018-11-18)
 
 
