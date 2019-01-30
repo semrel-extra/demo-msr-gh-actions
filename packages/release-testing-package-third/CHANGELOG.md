@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-third-v1.5.0](https://github.com/antongolub/release-testing/compare/v1.4.1...v1.5.0) (2019-01-30)
+
+
+### Features
+
+* tech release ([e02cda2](https://github.com/antongolub/release-testing/commit/e02cda2))
+
 # [@antongolub/release-testing-package-third-v1.3.0](https://github.com/antongolub/release-testing/compare/v1.2.2...v1.3.0) (2018-11-19)
 
 
