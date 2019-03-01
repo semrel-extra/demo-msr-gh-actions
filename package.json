@@ -30,7 +30,7 @@
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.4",
     "@semantic-release/release-notes-generator": "7.1.4",
-    "lerna": "^3.10.8",
+    "lerna": "^3.13.1",
     "semantic-release": "15.13.3",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.1",
