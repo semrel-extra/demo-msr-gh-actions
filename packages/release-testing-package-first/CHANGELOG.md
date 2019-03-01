@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-first-v1.6.0](https://github.com/antongolub/release-testing/compare/v1.5.0...v1.6.0) (2019-03-01)
+
+
+### Features
+
+* up lerna version ([d6826ff](https://github.com/antongolub/release-testing/commit/d6826ff))
+
 # [@antongolub/release-testing-package-first-v1.5.0](https://github.com/antongolub/release-testing/compare/v1.4.1...v1.5.0) (2019-01-30)
 
 
