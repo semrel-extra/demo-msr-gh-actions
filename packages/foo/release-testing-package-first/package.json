@@ -1,6 +1,6 @@
 {
   "name": "@antongolub/release-testing-package-first",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "release-testing-package-first",
   "main": "src/index.js",
   "repository": {
