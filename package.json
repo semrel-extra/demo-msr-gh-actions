@@ -13,7 +13,7 @@
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
-    "release": "rm -f .git/index.lock && multi-semantic-release"
+    "release": "multi-semantic-release"
   },
   "repository": {
     "type": "git",
