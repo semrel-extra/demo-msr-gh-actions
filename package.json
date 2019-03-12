@@ -34,8 +34,7 @@
     "@semantic-release/release-notes-generator": "7.1.4",
     "lerna": "^3.13.1",
     "multi-semantic-release": "^1.0.3",
-    "semantic-release": "15.13.3",
-    "semantic-release-plugin-decorators": "^2.0.0"
+    "semantic-release": "15.13.3"
   },
   "release": {
     "branch": "master",
@@ -46,7 +45,8 @@
     ],
     "prepare": [
       "@semantic-release/changelog",
-      "@semantic-release/npm"
+      "@semantic-release/npm",
+      "@semantic-release/git"
     ],
     "publish": [
       "@semantic-release/npm",
