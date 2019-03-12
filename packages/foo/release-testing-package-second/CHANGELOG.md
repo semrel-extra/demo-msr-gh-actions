@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-second 1.0.0 (2019-03-12)
+
+
+### Features
+
+* add fourth package ([ee23169](https://github.com/antongolub/release-testing.git/commit/ee23169))
+
 # [@antongolub/release-testing-package-second-v1.7.0](https://github.com/antongolub/release-testing/compare/v1.6.0...v1.7.0) (2019-03-12)
 
 
