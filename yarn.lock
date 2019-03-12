@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@antongolub/semantic-release-git@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@antongolub/semantic-release-git/-/semantic-release-git-0.0.2.tgz#f25e16f1106b7a9cb3de851045cbcbde61d6550d"
-  integrity sha512-z5PZbkbrFbVgLjMqb3mqLhpvfFkNDNiEnt4X1dduSGCRqRNbOt5txg3VZGH0Of8rHPIXr697S6IBvrI7hgG6tA==
+"@antongolub/semantic-release-git@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@antongolub/semantic-release-git/-/semantic-release-git-0.0.3.tgz#2ca7b496c92259ff390dbbc9f87837ff4b997e9f"
+  integrity sha512-dbj3K/EsNUTAccPZ4v8k6rr6Cwxw3XSN5yxUDf9gyaY2DIBadbGBDm5TwPWHUZz18LzB3c9B+qS/mYdmt5oYLA==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^2.0.0"
