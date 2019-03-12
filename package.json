@@ -32,17 +32,25 @@
     "@semantic-release/npm": "5.1.4",
     "@semantic-release/release-notes-generator": "7.1.4",
     "lerna": "^3.13.1",
+    "multi-semantic-release": "^1.0.3",
     "semantic-release": "15.13.3",
-    "semantic-release-monorepo": "6.1.1",
-    "semantic-release-monorepo-hooks": "2.9.1",
     "semantic-release-plugin-decorators": "^2.0.0"
   },
-  "monorepoHooks": {
-    "afterAll": {
-      "cmd": [
-        "echo \"foobar\"",
-        "node -e \"console.log('Hello')\""
-      ]
-    }
+  "release": {
+    "branch": "master",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   }
 }
