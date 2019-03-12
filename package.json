@@ -12,7 +12,8 @@
     "clean": "lerna clean --yes && lerna run clean",
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "release": "rm -f .git/index.lock && multi-semantic-release"
   },
   "repository": {
     "type": "git",
