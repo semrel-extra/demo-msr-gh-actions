@@ -1,3 +1,3 @@
 # @antongolub/release-testing-package-first
 
-Test
+Test 2
