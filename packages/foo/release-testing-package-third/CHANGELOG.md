@@ -1,3 +1,10 @@
+# [@antongolub/release-testing-package-third-v1.7.0](https://github.com/antongolub/release-testing/compare/v1.6.0...v1.7.0) (2019-03-12)
+
+
+### Features
+
+* add fourth package ([ee23169](https://github.com/antongolub/release-testing/commit/ee23169))
+
 # [@antongolub/release-testing-package-third-v1.5.0](https://github.com/antongolub/release-testing/compare/v1.4.1...v1.5.0) (2019-01-30)
 
 
