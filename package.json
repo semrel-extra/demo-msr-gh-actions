@@ -1,6 +1,7 @@
 {
   "workspaces": [
-    "packages/*"
+    "packages/foo/*",
+    "packages/bar/*"
   ],
   "private": true,
   "name": "@antongolub/release-testing",
