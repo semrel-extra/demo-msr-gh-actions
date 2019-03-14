@@ -13,13 +13,8 @@ const _execa = (...args) => {
   })
 
 
-  if (result.stdout === undefined) {
-    result.stdout = ''
-  }
-
-  if (result.stderr === undefined) {
-    result.stderr = ''
-  }
+  result.stdout = new String(result.stdout || '')
+  result.stderr = new String(result.stderr || '')
 
   result.stdout.pipe = () => {}
   result.stderr.pipe = () => {}

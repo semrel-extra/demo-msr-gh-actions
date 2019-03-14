@@ -1,3 +1,3 @@
 # @antongolub/release-testing-package-fourth
 
-Test 6
+Test 7
