@@ -12,8 +12,8 @@ const _execa = (...args) => {
     }
   })
 
-  result.stdout.pipe = () => {}
-  result.stderr.pipe = () => {}
+  result.stdout && (result.stdout.pipe = () => {})
+  result.stderr && (result.stderr.pipe = () => {})
 
   return result
 }
