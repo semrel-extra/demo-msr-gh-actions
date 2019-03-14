@@ -12,8 +12,17 @@ const _execa = (...args) => {
     }
   })
 
-  result.stdout && (result.stdout.pipe = () => {})
-  result.stderr && (result.stderr.pipe = () => {})
+
+  if (result.stdout === undefined) {
+    result.stdout = ''
+  }
+
+  if (result.stderr === undefined) {
+    result.stderr = ''
+  }
+
+  result.stdout.pipe = () => {}
+  result.stderr.pipe = () => {}
 
   return result
 }
