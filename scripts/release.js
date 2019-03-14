@@ -2,16 +2,24 @@ const execa = require('execa')
 const hook = require('require-in-the-middle')
 const { sync, stdout, stderr, shell, shellSync } = execa
 
-sync.sync = sync
-sync.stdout = stdout
-sync.stderr = stderr
-sync.shell = shell
-sync.shellSync = shellSync
+const _execa = (...args) =>  new Promise((resolve, reject) => {
+  try {
+    resolve(sync(...args))
+  } catch (e) {
+    reject(e)
+  }
+})
+
+
+Object.assign(_execa, execa)
+_execa.sync = sync
+_execa.stdout = stdout
+_execa.stderr = stderr
+_execa.shell = shell
+_execa.shellSync = shellSync
 
 delete require.cache[require.resolve('execa')]
 
-hook(['execa'], function (exports, name, basedir) {
-  return sync
-})
+hook(['execa'], () => _execa)
 
 require('multi-semantic-release/bin/cli')
