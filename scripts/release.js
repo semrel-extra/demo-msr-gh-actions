@@ -2,13 +2,18 @@ const execa = require('execa')
 const hook = require('require-in-the-middle')
 const { sync, stdout, stderr, shell, shellSync } = execa
 
-const _execa = (...args) =>  new Promise((resolve, reject) => {
-  try {
-    resolve(sync(...args))
-  } catch (e) {
-    reject(e)
-  }
-})
+const _execa = (...args) => {
+  const result =  new Promise((resolve, reject) => {
+    try {
+      resolve(sync(...args))
+    } catch (e) {
+      reject(e)
+    }
+  })
+
+  result.stdout.pipe = () => {}
+  result.stderr.pipe = () => {}
+}
 
 
 Object.assign(_execa, execa)
