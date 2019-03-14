@@ -1,6 +1,7 @@
 const execa = require('execa')
 const hook = require('require-in-the-middle')
 const { sync, stdout, stderr, shell, shellSync } = execa
+require('debug').enable('semantic-release:*')
 
 const _execa = (...args) => {
   const result =  new Promise((resolve, reject) => {
@@ -13,6 +14,8 @@ const _execa = (...args) => {
 
   result.stdout.pipe = () => {}
   result.stderr.pipe = () => {}
+
+  return result
 }
 
 
