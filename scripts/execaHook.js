@@ -30,8 +30,12 @@ const hook = () => {
     return
   }
 
+  const execaHooked = getExecaSyncPromisified()
+
+  interceptor = ritm(['execa'], () => execaHooked)
   uncache()
-  interceptor = ritm(['execa'], () => getExecaSyncPromisified())
+
+  console.log('"execa" hooked')
 }
 
 const unhook = () => {
@@ -39,6 +43,8 @@ const unhook = () => {
     interceptor.unhook()
     interceptor = null
     uncache()
+
+    console.log('"execa" unhooked')
   }
 }
 
