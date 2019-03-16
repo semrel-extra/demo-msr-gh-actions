@@ -13,7 +13,7 @@
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
-    "release": "node ./scripts/release"
+    "release": "node ./scripts/release --execahook"
   },
   "repository": {
     "type": "git",
