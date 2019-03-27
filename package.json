@@ -13,7 +13,7 @@
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
-    "release": "node ./scripts/release --execahook"
+    "release": "multi-semantic-release --execahook"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,8 @@
     "@semantic-release/npm": "5.1.4",
     "@semantic-release/release-notes-generator": "7.1.4",
     "lerna": "^3.13.1",
-    "multi-semantic-release": "^1.0.3",
-    "require-in-the-middle": "^3.1.0",
+    "multi-semantic-release": "^1.1.0",
+    "require-in-the-middle": "^4.0.0",
     "semantic-release": "15.13.3"
   },
   "release": {
