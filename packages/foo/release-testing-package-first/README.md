@@ -1,3 +1,3 @@
 # @antongolub/release-testing-package-first
 
-Bar
+Bar Baz
