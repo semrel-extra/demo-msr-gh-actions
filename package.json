@@ -33,7 +33,7 @@
     "@semantic-release/npm": "5.3.1",
     "@semantic-release/release-notes-generator": "7.3.2",
     "lerna": "^3.18.3",
-    "@antongolub/multi-semantic-release": "^1.0.10",
+    "@antongolub/multi-semantic-release": "^1.0.12",
     "require-in-the-middle": "^5.0.0",
     "semantic-release": "15.13.28"
   }
