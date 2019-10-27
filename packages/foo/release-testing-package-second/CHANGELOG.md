@@ -1,3 +1,18 @@
+## @antongolub/release-testing-package-second [2.0.4](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@2.0.3...@antongolub/release-testing-package-second@2.0.4) (2019-10-27)
+
+
+### Performance Improvements
+
+* test execa hook update ([53eb676](https://github.com/antongolub/release-testing/commit/53eb6760a068816c77eb85c0f511c3d2e6c1fda3))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-first:** upgraded to 3.0.4
+
 # @antongolub/release-testing-package-second 1.0.0 (2019-03-12)
 
 
