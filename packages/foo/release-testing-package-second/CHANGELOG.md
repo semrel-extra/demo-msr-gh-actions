@@ -1,3 +1,13 @@
+## @antongolub/release-testing-package-second [2.0.5](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@2.0.4...@antongolub/release-testing-package-second@2.0.5) (2019-10-27)
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-first:** upgraded to 3.0.5
+
 ## @antongolub/release-testing-package-second [2.0.4](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@2.0.3...@antongolub/release-testing-package-second@2.0.4) (2019-10-27)
 
 
