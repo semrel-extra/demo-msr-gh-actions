@@ -14,12 +14,12 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "exit 0"
+    "build": "docco src/*.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-second": "2.0.4"
+    "@antongolub/release-testing-package-second": "2.0.5"
   },
   "devDependencies": {},
   "peerDependencies": {}
