@@ -1,3 +1,18 @@
+# @antongolub/release-testing-package-fourth [3.1.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@3.0.3...@antongolub/release-testing-package-fourth@3.1.0) (2020-02-12)
+
+
+### Features
+
+* configure docs publishing ([ce120c5](https://github.com/antongolub/release-testing/commit/ce120c531a3132d95e603042e7218b96a1960159))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 2.1.0
+
 ## @antongolub/release-testing-package-fourth [3.0.3](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@3.0.2...@antongolub/release-testing-package-fourth@3.0.3) (2019-10-27)
 
 
