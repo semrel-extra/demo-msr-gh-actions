@@ -1,6 +1,6 @@
 {
   "name": "@antongolub/release-testing-package-fourth",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "release-testing-package-fourth",
   "main": "src/index.js",
   "repository": {
