@@ -19,7 +19,7 @@
       {
         "branch": "gh-pages",
         "msg": "updated {{=it.nextRelease.gitTag}}",
-        "src": "./packages/release-testing-package-first/docs",
+        "src": "./packages/foo/release-testing-package-first/docs",
         "dst": "./first"
       }
     ]
