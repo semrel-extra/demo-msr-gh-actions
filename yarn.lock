@@ -7,13 +7,6 @@
   resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-3.0.3.tgz#5d863e36e45ecabad467aa656d80fa13253b8e3c"
   integrity sha512-BiJAnKO/RUy+ihjII1yjjydMyqhWkEtzbATgTDuWN2+ngQC1AUKxOwvgaUDggnoEXp3mHS11GbwtOW/Y9a/N8A==
 
-"@antongolub/release-testing-package-second@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-2.2.1.tgz#25b0b893ec6388e1e32ae5ba896ca5a8fdf62c14"
-  integrity sha512-7Y+hQEZYPv+HzBECMQhd1NtUxbrMpSJ7xJzw5RgbECIZD93hRSyHiSAB7Y/c4KCT34+2aLctCzyy/tEIwqfOww==
-  dependencies:
-    "@antongolub/release-testing-package-first" "3.0.3"
-
 "@babel/code-frame@^7.0.0":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -932,10 +925,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.0.1.tgz#8059a07f87b109adf4c65298c5f29322ad667482"
-  integrity sha512-8hsTvNInhxbB9FirVlTYKmmPf1fsT1rBL9BuVGwGG6Ta1vQ89tQT+uBpecNQptBtWTXufKd3TYFzJome86o/cQ==
+"@qiwi/multi-semantic-release@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.1.2.tgz#d419a48e3a408f96e5031e4901a513b42301b900"
+  integrity sha512-i3LCnkR8UOW1f0ROELeOthdhEwjBEw4vYKEkBjXIHfANdG57NQ5PpGI56XPTV0PWVoxkwCrZJPDw0W/kxyGhlg==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
@@ -944,11 +937,11 @@
     get-stream "^5.1.0"
     git-log-parser "^1.2.0"
     require-in-the-middle "^5.0.3"
-    semantic-release "^17.0.2"
-    semver "^7.1.2"
+    semantic-release "^17.0.3"
+    semver "^7.1.3"
     signale "^1.4.0"
     stream-buffers "^3.0.2"
-    tempy "^0.3.0"
+    tempy "^0.4.0"
 
 "@qiwi/semantic-release-gh-pages-plugin@1.15.10-beta.2":
   version "1.15.10-beta.2"
@@ -6176,44 +6169,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@17.0.3:
+semantic-release@17.0.3, semantic-release@^17.0.3:
   version "17.0.3"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.3.tgz#8c1f91e8ebe5bfa8764de5dbde8ee79f18c61ac6"
   integrity sha512-hOwW6rfC8oRFyIamsW1LACIG6epVGND9ZxFOilKcM72ZgqMAxS+jN2996gCYBJmMizpYRu7orNaEkbd98ppRTg==
-  dependencies:
-    "@semantic-release/commit-analyzer" "^8.0.0"
-    "@semantic-release/error" "^2.2.0"
-    "@semantic-release/github" "^7.0.0"
-    "@semantic-release/npm" "^7.0.0"
-    "@semantic-release/release-notes-generator" "^9.0.0"
-    aggregate-error "^3.0.0"
-    cosmiconfig "^6.0.0"
-    debug "^4.0.0"
-    env-ci "^5.0.0"
-    execa "^4.0.0"
-    figures "^3.0.0"
-    find-versions "^3.0.0"
-    get-stream "^5.0.0"
-    git-log-parser "^1.2.0"
-    hook-std "^2.0.0"
-    hosted-git-info "^3.0.0"
-    lodash "^4.17.15"
-    marked "^0.8.0"
-    marked-terminal "^4.0.0"
-    micromatch "^4.0.2"
-    p-each-series "^2.1.0"
-    p-reduce "^2.0.0"
-    read-pkg-up "^7.0.0"
-    resolve-from "^5.0.0"
-    semver "^7.1.1"
-    semver-diff "^3.1.1"
-    signale "^1.2.1"
-    yargs "^15.0.1"
-
-semantic-release@^17.0.2:
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.2.tgz#0b6ca76b17092ba0697a9bd3d210178b57a232d7"
-  integrity sha512-f2466mNS/TpY32Jvoqgu3ricIDX/TRZXuthcyJo3ZIfdI14uMfiOu5R2dFKnPwgJh4wa9/2ckL44AFmIXAhiyg==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
@@ -6273,7 +6232,7 @@ semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.1.1, semver@^7.1.2:
+semver@^7.1.1, semver@^7.1.2, semver@^7.1.3:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.3.tgz#e4345ce73071c53f336445cfc19efb1c311df2a6"
   integrity sha512-ekM0zfiA9SCBlsKa2X1hxyxiI4L3B6EbVJkkdgQXnSEEaHlGdvyodMruTiulSRWMMB4NeIuYNMC9rTKTz97GxA==
