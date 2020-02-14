@@ -955,16 +955,16 @@
     stream-buffers "^3.0.2"
     tempy "^0.4.0"
 
-"@qiwi/semantic-release-gh-pages-plugin@1.15.10-beta.9":
-  version "1.15.10-beta.9"
-  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.15.10-beta.9.tgz#14e357311dcdebc0a64bab59ae9d9ae91d6e9582"
-  integrity sha512-srBeXKhBw8heuPWdvmuBNERjFsfcd7v+9uGyrDA8Dr4zNnqpK6EY3iJQg0rn1sPAwP4O0BtE811FDKTFTF+H5Q==
+"@qiwi/semantic-release-gh-pages-plugin@1.15.10-beta.11":
+  version "1.15.10-beta.11"
+  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.15.10-beta.11.tgz#49a2085727d294d7f1a4d49cbb6cef6eaea37889"
+  integrity sha512-SZVSJB4fNLu1SOXOe8NsJVBNhgRPxY0ilSOsptEmQqyBQ+lFcI1YZ98Xr1INJ3j6I7MIS3/R2d5DzULYJnrxBw==
   dependencies:
     "@types/git-url-parse" "^9.0.0"
     aggregate-error "^3.0.1"
     dot "^1.1.3"
     execa "^4.0.0"
-    gh-pages "^2.2.0"
+    gh-pages "^2.0.1"
     git-url-parse "^11.1.2"
     lodash "^4.17.15"
     read-pkg "^5.2.0"
@@ -3022,7 +3022,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^2.2.0:
+gh-pages@^2.0.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.2.0.tgz#74ebeaca8d2b9a11279dcbd4a39ddfff3e6caa24"
   integrity sha512-c+yPkNOPMFGNisYg9r4qvsMIjVYikJv7ImFOhPIVPt0+AcRUamZ7zkGRLHz7FKB0xrlZ+ddSOJsZv9XAFVXLmA==
