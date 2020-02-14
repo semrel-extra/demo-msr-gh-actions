@@ -7,13 +7,6 @@
   resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-3.0.3.tgz#5d863e36e45ecabad467aa656d80fa13253b8e3c"
   integrity sha512-BiJAnKO/RUy+ihjII1yjjydMyqhWkEtzbATgTDuWN2+ngQC1AUKxOwvgaUDggnoEXp3mHS11GbwtOW/Y9a/N8A==
 
-"@antongolub/release-testing-package-second@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.1.0.tgz#5b72dd9e69d553b2bbd91ca611dab71ce9c631d2"
-  integrity sha512-VMNZtR/9gf45JPWuNjUk02brNUQll9jkzQX+dGrYCQbG8gkXUNppgHFYcDvsvvJEBBTWC+K8p8yOYBg9ex/MnQ==
-  dependencies:
-    "@antongolub/release-testing-package-first" "3.0.3"
-
 "@babel/code-frame@^7.0.0":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -955,10 +948,10 @@
     stream-buffers "^3.0.2"
     tempy "^0.4.0"
 
-"@qiwi/semantic-release-gh-pages-plugin@1.15.10-beta.5":
-  version "1.15.10-beta.5"
-  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.15.10-beta.5.tgz#8ee441d802c8d2b3402fda39df983297a48d2ca2"
-  integrity sha512-xJuGuy66lqXpgQxIcTIclSL+XRDhPqMv8Qcox2n4sxzOnjBKlHBUmdauJyYMUkrwJdpvV/+qVnE/5oxRVRGwqw==
+"@qiwi/semantic-release-gh-pages-plugin@1.15.10-beta.7":
+  version "1.15.10-beta.7"
+  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.15.10-beta.7.tgz#28970dfbc914940635b2f0a7db7b5c3258f5f470"
+  integrity sha512-E8NKqCIOofwjz/lLrVVYO6x+BrJdAumDuDVCVvPe8QHaTBoahrtk57LfMOBz/C7knfF7ITkz+n1nyj+jRA7FQQ==
   dependencies:
     "@types/git-url-parse" "^9.0.0"
     aggregate-error "^3.0.1"
