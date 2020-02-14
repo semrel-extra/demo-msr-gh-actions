@@ -1,3 +1,18 @@
+# @antongolub/release-testing-package-second [3.1.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.0.4...@antongolub/release-testing-package-second@3.1.0) (2020-02-14)
+
+
+### Features
+
+* migrate to jsdoc ([9188027](https://github.com/antongolub/release-testing/commit/91880272109882956dedcd5f5fb430dc443a764b))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-first:** upgraded to 4.2.0
+
 ## @antongolub/release-testing-package-second [3.0.4](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.0.3...@antongolub/release-testing-package-second@3.0.4) (2020-02-13)
 
 
