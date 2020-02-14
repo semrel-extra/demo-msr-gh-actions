@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "docco src/*.js"
+    "build": "jsdoc ./src --readme ./README.md --destination ./docs"
   },
   "author": "",
   "license": "MIT",

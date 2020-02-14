@@ -14,12 +14,12 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "docco src/*.js"
+    "build": "jsdoc ./src --readme ./README.md --destination ./docs"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-second": "3.0.0"
+    "@antongolub/release-testing-package-second": "3.0.4"
   },
   "devDependencies": {},
   "peerDependencies": {}
