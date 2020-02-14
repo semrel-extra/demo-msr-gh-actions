@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-third [3.1.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-third@3.0.0...@antongolub/release-testing-package-third@3.1.0) (2020-02-14)
+
+
+### Features
+
+* migrate to jsdoc ([9188027](https://github.com/antongolub/release-testing/commit/91880272109882956dedcd5f5fb430dc443a764b))
+
 # @antongolub/release-testing-package-third [3.0.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-third@2.2.1...@antongolub/release-testing-package-third@3.0.0) (2020-02-13)
 
 
