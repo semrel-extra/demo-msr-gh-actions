@@ -13,7 +13,7 @@
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
-    "release": "multi-semantic-release --execasync --watchspawn",
+    "release": "NODE_DEBUG=gh-pages multi-semantic-release --execasync --watchspawn",
     "postupdate": "yarn && yarn bootstrap && yarn build && yarn test"
   },
   "repository": {
