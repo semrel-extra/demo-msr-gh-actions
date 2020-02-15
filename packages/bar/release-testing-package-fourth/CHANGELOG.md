@@ -1,3 +1,13 @@
+## @antongolub/release-testing-package-fourth [4.2.12](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.11...@antongolub/release-testing-package-fourth@4.2.12) (2020-02-15)
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 3.2.9
+
 ## @antongolub/release-testing-package-fourth [4.2.11](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.10...@antongolub/release-testing-package-fourth@4.2.11) (2020-02-14)
 
 
