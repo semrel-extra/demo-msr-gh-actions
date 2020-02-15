@@ -1,6 +1,6 @@
 {
   "name": "@antongolub/release-testing-package-second",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "description": "release-testing-package-second",
   "main": "src/index.js",
   "repository": {
