@@ -1,3 +1,18 @@
+## @antongolub/release-testing-package-fourth [4.2.15](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.14...@antongolub/release-testing-package-fourth@4.2.15) (2020-03-06)
+
+
+### Bug Fixes
+
+* up deps ([4a50dd9](https://github.com/antongolub/release-testing/commit/4a50dd9587460a337cac0cb0da407100ad51c36a))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 3.2.12
+
 ## @antongolub/release-testing-package-fourth [4.2.14](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.13...@antongolub/release-testing-package-fourth@4.2.14) (2020-02-27)
 
 
