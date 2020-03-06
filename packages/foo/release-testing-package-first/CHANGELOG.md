@@ -1,3 +1,10 @@
+## @antongolub/release-testing-package-first [4.2.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.2.0...@antongolub/release-testing-package-first@4.2.1) (2020-03-06)
+
+
+### Bug Fixes
+
+* up deps ([4a50dd9](https://github.com/antongolub/release-testing/commit/4a50dd9587460a337cac0cb0da407100ad51c36a))
+
 # @antongolub/release-testing-package-first [4.2.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.1.1...@antongolub/release-testing-package-first@4.2.0) (2020-02-14)
 
 
