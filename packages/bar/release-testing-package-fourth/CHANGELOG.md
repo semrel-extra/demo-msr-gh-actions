@@ -1,3 +1,18 @@
+## @antongolub/release-testing-package-fourth [4.2.18](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.17...@antongolub/release-testing-package-fourth@4.2.18) (2020-03-07)
+
+
+### Performance Improvements
+
+* tech release ([49f5d9b](https://github.com/antongolub/release-testing/commit/49f5d9bb5221f2065a5c57bcaf17fba01bb192a3))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 3.2.15
+
 ## @antongolub/release-testing-package-fourth [4.2.17](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.2.16...@antongolub/release-testing-package-fourth@4.2.17) (2020-03-07)
 
 
