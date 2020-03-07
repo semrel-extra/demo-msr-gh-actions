@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-3.0.3.tgz#5d863e36e45ecabad467aa656d80fa13253b8e3c"
   integrity sha512-BiJAnKO/RUy+ihjII1yjjydMyqhWkEtzbATgTDuWN2+ngQC1AUKxOwvgaUDggnoEXp3mHS11GbwtOW/Y9a/N8A==
 
-"@antongolub/release-testing-package-second@3.2.16":
-  version "3.2.16"
-  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.2.16.tgz#c79cec1ed18425e0f4e94e90799cf6a6cdbe9ad1"
-  integrity sha512-hzWzRPfDK35AiGfGC1fWTgdy2hKTc2vtPx6GXlOXuGC5ri2GdZhh42OQ508pWNMANn4Xksv+DmwCl7pqTFxAYQ==
+"@antongolub/release-testing-package-second@3.2.17":
+  version "3.2.17"
+  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.2.17.tgz#2242e360019147a0fd1ae7a2cac6d174deb349ab"
+  integrity sha512-0WH0oLS5FOhLDT4IiPeF661vkzeYooKj28DbLH1nS+OXwa+AC3saUDwUceBSiyuhue5ECDJiwmb9imvH9ZBctQ==
   dependencies:
     "@antongolub/release-testing-package-first" "3.0.3"
 
@@ -997,10 +997,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.1.tgz#6664f262fb864c60457aaa92eecde8f068b60a54"
-  integrity sha512-P6Jm4kvKNF0WQA4pFZf0rXaxb+09CLNO4jIJH/pkRI+z84RdBzuWwdhbqoYVqrSn3M93in1xhLlJGPhPKaHtsA==
+"@qiwi/multi-semantic-release@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.2.tgz#2a18e484f0852f2410b0c03e54b48c765cf58d55"
+  integrity sha512-qu39KhaV9hxsYoIRrPhxx+SN9gIm2ZseoLuCKdIYwijkqbNYZeQkOmnfC1/Zo0keNJ/j8o6VjFacQwlB5Gx7fQ==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
@@ -1009,6 +1009,7 @@
     get-stream "^5.1.0"
     git-log-parser "^1.2.0"
     lodash.get "^4.4.2"
+    lodash.once "^4.1.1"
     lodash.pairs "^3.0.1"
     lodash.set "^4.3.2"
     meow "^6.0.1"
@@ -4471,6 +4472,11 @@ lodash.keys@^3.0.0:
     lodash._getnative "^3.0.0"
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
+
+lodash.once@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
+  integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
 
 lodash.pairs@^3.0.1:
   version "3.0.1"
