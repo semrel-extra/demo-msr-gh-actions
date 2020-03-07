@@ -7,6 +7,13 @@
   resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-3.0.3.tgz#5d863e36e45ecabad467aa656d80fa13253b8e3c"
   integrity sha512-BiJAnKO/RUy+ihjII1yjjydMyqhWkEtzbATgTDuWN2+ngQC1AUKxOwvgaUDggnoEXp3mHS11GbwtOW/Y9a/N8A==
 
+"@antongolub/release-testing-package-second@3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.2.14.tgz#7318543d93c87463361d41ac38666dc7dcba19ff"
+  integrity sha512-wGJTw7sOO97utjTnQ4+lskkPeiu3sGVvsNbzy5iAKNLxWe+bdJ8PAHelR+lzEc403LIBtER/2CZSkwL5YvsrAw==
+  dependencies:
+    "@antongolub/release-testing-package-first" "3.0.3"
+
 "@babel/code-frame@^7.0.0":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -990,10 +997,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.3.1.tgz#de21030fa5772ab4faa7b137ae3ab3dd97ebc648"
-  integrity sha512-JYDUZN/X7qT2sVlhkJiZ/PwLyoUgkJo+tNso6G9fA+zODVyfEu2TEYATIYUMFE7bHPQYChm7Wz1326s1s4k/aQ==
+"@qiwi/multi-semantic-release@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.3.2.tgz#53f6f403ab6fd12199865a5ed12987c47f104a68"
+  integrity sha512-wNpzmBXyppC1lN7jTqnxaheKNCGWqDX6E72qdGL+M4M9P7jG8yvEDq7EmMfcfLS2QIlfgw2UKmMVTwzVAu3jzA==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
