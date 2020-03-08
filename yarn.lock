@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-3.0.3.tgz#5d863e36e45ecabad467aa656d80fa13253b8e3c"
   integrity sha512-BiJAnKO/RUy+ihjII1yjjydMyqhWkEtzbATgTDuWN2+ngQC1AUKxOwvgaUDggnoEXp3mHS11GbwtOW/Y9a/N8A==
 
-"@antongolub/release-testing-package-second@3.2.17":
-  version "3.2.17"
-  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.2.17.tgz#2242e360019147a0fd1ae7a2cac6d174deb349ab"
-  integrity sha512-0WH0oLS5FOhLDT4IiPeF661vkzeYooKj28DbLH1nS+OXwa+AC3saUDwUceBSiyuhue5ECDJiwmb9imvH9ZBctQ==
+"@antongolub/release-testing-package-second@3.2.18":
+  version "3.2.18"
+  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.2.18.tgz#a953fa1030d3d2b33319ee536f1149ea1479d076"
+  integrity sha512-olv7u8r/EuswzTyjJAPaqmtnEkUdHRGzoRibVPMq08b7Mqg6I1DTrz4hzTmTRtiPP7fETNuP24V2hF2zP55Jdg==
   dependencies:
     "@antongolub/release-testing-package-first" "3.0.3"
 
@@ -997,10 +997,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.2.tgz#2a18e484f0852f2410b0c03e54b48c765cf58d55"
-  integrity sha512-qu39KhaV9hxsYoIRrPhxx+SN9gIm2ZseoLuCKdIYwijkqbNYZeQkOmnfC1/Zo0keNJ/j8o6VjFacQwlB5Gx7fQ==
+"@qiwi/multi-semantic-release@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.3.tgz#aa25110750eb534d8ea4223e218a4a4a6ca651f4"
+  integrity sha512-oMLepfUgzmWdncPTy23REtcjp/Z74agOOoGfJgXFHtOfSzsfpV1e2+VI8mv3ZoZKpWicGSKmvv3SZL9L7rdY+g==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
