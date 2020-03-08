@@ -1,3 +1,10 @@
+## @antongolub/release-testing-package-second [3.2.19](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.2.18...@antongolub/release-testing-package-second@3.2.19) (2020-03-08)
+
+
+### Performance Improvements
+
+* tech release ([aaff470](https://github.com/antongolub/release-testing/commit/aaff4708897256b0f8581bd25245aaf015ab2c62))
+
 ## @antongolub/release-testing-package-second [3.2.18](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.2.17...@antongolub/release-testing-package-second@3.2.18) (2020-03-07)
 
 
