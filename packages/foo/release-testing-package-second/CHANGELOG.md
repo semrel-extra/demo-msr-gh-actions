@@ -1,3 +1,10 @@
+## @antongolub/release-testing-package-second [3.4.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.4.0...@antongolub/release-testing-package-second@3.4.1) (2020-05-15)
+
+
+### Bug Fixes
+
+* tech release ([10bae4a](https://github.com/antongolub/release-testing/commit/10bae4a8af187941b2c3b9da518b2e5c9963f5eb))
+
 # @antongolub/release-testing-package-second [3.4.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.3.2...@antongolub/release-testing-package-second@3.4.0) (2020-05-15)
 
 
