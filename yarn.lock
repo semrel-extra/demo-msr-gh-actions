@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@antongolub/release-testing-package-second@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-second/-/release-testing-package-second-3.3.1.tgz#7b0995fa9b4bf5b6f8615e961a38cd555e1d68ec"
+  integrity sha512-DfbdQKb5jVPbY9PqcHwKUcr4NgIONuS10i54P/cOqOcNd4ycs0fzv2fYWgVmNtaer/xZYT5EmhXg9C1jrP88eg==
+  dependencies:
+    "@antongolub/release-testing-package-first" "4.2.1"
+
 "@babel/code-frame@^7.0.0":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -971,10 +978,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.4.4-beta.1":
-  version "2.4.4-beta.1"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.1.tgz#1ee56c09b51f99abdef9ee6dd4becd635691b6b9"
-  integrity sha512-v+9ojic2Va39kJb2ZTSfrdaWCAU48Bt3+aCpVnK2raKFM13w6jHfo/t53iPs4kw1gbk7Lh6XYQE85a4nwDkDNw==
+"@qiwi/multi-semantic-release@^2.4.4-beta.2":
+  version "2.4.4-beta.2"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.2.tgz#81165d98c4ef1fa47933c03252149132a44f4e78"
+  integrity sha512-DnCpA/HknOdEzHjJLQAk4X0xyhdnAUx0ykrvzmmsrZm9a6PI5JOsQVDBpDhmh5KKRJnNr/dCd6JKLmI8/4aQPg==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"

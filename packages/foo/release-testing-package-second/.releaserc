@@ -21,7 +21,7 @@
         "msg": "updated {{=it.nextRelease.gitTag}}",
         "src": "./packages/foo/release-testing-package-second/docs",
         "dst": "./second",
-        "pullTagsBranch": ""
+        "pullTagsBranch": "gh-pages"
       }
     ]
   ]

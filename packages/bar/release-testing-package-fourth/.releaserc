@@ -21,7 +21,7 @@
         "msg": "updated {{=it.nextRelease.gitTag}}",
         "src": "./packages/bar/release-testing-package-fourth/docs",
         "dst": "./fourth",
-        "pullTagsBranch": ""
+        "pullTagsBranch": "gh-pages"
       }
     ]
   ]

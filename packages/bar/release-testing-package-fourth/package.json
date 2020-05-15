@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-second": "3.3.0"
+    "@antongolub/release-testing-package-second": "3.3.1"
   },
   "devDependencies": {},
   "peerDependencies": {}
