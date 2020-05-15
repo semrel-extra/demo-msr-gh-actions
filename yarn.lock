@@ -994,10 +994,10 @@
     stream-buffers "^3.0.2"
     tempy "^0.4.0"
 
-"@qiwi/semantic-release-gh-pages-plugin@^1.17.0-beta.3":
-  version "1.17.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.17.0-beta.3.tgz#d2e86e5b325362c1518cf298904639a0a8cb51e8"
-  integrity sha512-MO9RIRiNk4r/Ke5wE5UraI4fQgGkZNZ0zjiDaMzT5rEce7YV+Zkwj11bDCzDaWLhtWe3Vk+/uHzbtvoBmq5xkQ==
+"@qiwi/semantic-release-gh-pages-plugin@^1.17.0-beta.4":
+  version "1.17.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.17.0-beta.4.tgz#c1a3c76512423ebd208f3cf084d41f2400023038"
+  integrity sha512-fvULrXxHsIJ2tED5R7cA6t8KyVU7RH5lGT6Gy9aiodn0Of45/EOy2Y6YRZuKNpT0uCOIdafLmb81UYmUdc8ceg==
   dependencies:
     "@types/git-url-parse" "^9.0.0"
     aggregate-error "^3.0.1"
