@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-second [3.8.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.7.0...@antongolub/release-testing-package-second@3.8.0) (2020-05-16)
+
+
+### Features
+
+* tech release ([98dbdd0](https://github.com/antongolub/release-testing/commit/98dbdd0978898830022c925869d29758b0af3682))
+
 # @antongolub/release-testing-package-second [3.7.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.6.1...@antongolub/release-testing-package-second@3.7.0) (2020-05-16)
 
 
