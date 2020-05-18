@@ -1,3 +1,11 @@
+## @antongolub/release-testing-package-first [4.4.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.4.0...@antongolub/release-testing-package-first@4.4.1) (2020-05-18)
+
+
+### Performance Improvements
+
+* tech release ([cca46ce](https://github.com/antongolub/release-testing/commit/cca46cea49855b5a8b03fb325fdbaeaaa4dc149d))
+* tech release ([fb14184](https://github.com/antongolub/release-testing/commit/fb141849e6a0fc1cf032e9967dd23f6757566f63))
+
 # @antongolub/release-testing-package-first [4.4.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.3.0...@antongolub/release-testing-package-first@4.4.0) (2020-05-18)
 
 
