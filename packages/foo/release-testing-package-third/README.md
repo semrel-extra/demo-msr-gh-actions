@@ -1,3 +1,3 @@
 # @antongolub/release-testing-package-third
 
-qwe tgt 45df er
+qwe tgt 45df er eer
