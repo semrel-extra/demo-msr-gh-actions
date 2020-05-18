@@ -971,10 +971,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.4.4-beta.2":
-  version "2.4.4-beta.2"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.2.tgz#81165d98c4ef1fa47933c03252149132a44f4e78"
-  integrity sha512-DnCpA/HknOdEzHjJLQAk4X0xyhdnAUx0ykrvzmmsrZm9a6PI5JOsQVDBpDhmh5KKRJnNr/dCd6JKLmI8/4aQPg==
+"@qiwi/multi-semantic-release@^2.4.4-beta.3":
+  version "2.4.4-beta.3"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.3.tgz#b3ee5f8953ec7f3fae5237f99fd15d19dad51c1a"
+  integrity sha512-7S2l5MZMuDmewGRzyAz0OMZgZuuiounDC38ci3YTW6MEQjnCcZAFUX0mEUNTpwdR1Ph/21fNdkhp8tx2vZ34Vw==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
@@ -982,11 +982,9 @@
     execa "^4.0.0"
     get-stream "^5.1.0"
     git-log-parser "^1.2.0"
-    lodash.get "^4.4.2"
-    lodash.once "^4.1.1"
-    lodash.pairs "^3.0.1"
-    lodash.set "^4.3.2"
+    lodash "^4.17.15"
     meow "^6.0.1"
+    queuefy "^1.0.0"
     require-in-the-middle "^5.0.3"
     semantic-release "^17.0.4"
     semver "^7.1.3"
@@ -994,22 +992,22 @@
     stream-buffers "^3.0.2"
     tempy "^0.4.0"
 
-"@qiwi/semantic-release-gh-pages-plugin@^1.17.0-beta.7":
-  version "1.17.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-1.17.0-beta.7.tgz#db5e80c45434cd102c71e7a214e235f76cbd5a21"
-  integrity sha512-0uWoA9dbwq62hFmBtWXn0gVnuXqBxqZQj7aBFCqPOPimPMXsJC9zn7HtjVEWJiMWRo2nJo0R4v4f5uBH6yu75w==
+"@qiwi/semantic-release-gh-pages-plugin@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@qiwi/semantic-release-gh-pages-plugin/-/semantic-release-gh-pages-plugin-2.0.0.tgz#c042ac5f9ab7ca3dc9414e7716be51cec31be299"
+  integrity sha512-MyosKf3bON18UHKvX8jXAZAtmeBKynONWDoycf1qMOfl6bzOXluufNj/m4yZXXiEn50eIAscNACUEPcKHGPHDA==
   dependencies:
     "@types/git-url-parse" "^9.0.0"
     aggregate-error "^3.0.1"
     dot "^1.1.3"
-    execa "^4.0.0"
+    execa "^4.0.1"
     gh-pages "^2.2.0"
     git-url-parse "^11.1.2"
     inside-out-promise "^1.4.3"
     lodash "^4.17.15"
     read-pkg "^5.2.0"
     sync-request "^6.1.0"
-    tslib "^1.11.1"
+    tslib "^2.0.0"
 
 "@qiwi/substrate-abstract@^1.17.40":
   version "1.17.41"
@@ -2707,6 +2705,21 @@ execa@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.0.tgz#7f37d6ec17f09e6b8fc53288611695b6d12b9daf"
   integrity sha512-JbDUxwV3BoT5ZVXQrSVbAiaXhXUkIwvbhPIwZ0N13kX+5yCzOhUNdocxB/UQRuYOHRYYwAxKYwJYc0T4D12pDA==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
+  integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
@@ -4424,11 +4437,6 @@ lodash._createset@~4.0.0:
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
 
-lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
-
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -4459,16 +4467,6 @@ lodash.get@^4.4.2:
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
 
-lodash.isarguments@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
-  integrity sha1-L1c9hcaiQon/AGY7SRwdM4/zRYo=
-
-lodash.isarray@^3.0.0:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
-  integrity sha1-eeTriMNqgSKvhvhEqpvNhRtfu1U=
-
 lodash.ismatch@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
@@ -4483,27 +4481,6 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
-
-lodash.keys@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
-  integrity sha1-TbwEcrFWvlCgsoaFXRvQsMZWCYo=
-  dependencies:
-    lodash._getnative "^3.0.0"
-    lodash.isarguments "^3.0.0"
-    lodash.isarray "^3.0.0"
-
-lodash.once@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
-  integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
-
-lodash.pairs@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash.pairs/-/lodash.pairs-3.0.1.tgz#bbe08d5786eeeaa09a15c91ebf0dcb7d2be326a9"
-  integrity sha1-u+CNV4bu6qCaFckevw3LfSvjJqk=
-  dependencies:
-    lodash.keys "^3.0.0"
 
 lodash.set@^4.3.2:
   version "4.3.2"
@@ -6044,6 +6021,13 @@ query-string@^6.8.2:
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
+queuefy@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/queuefy/-/queuefy-1.0.0.tgz#3dd3630ec9a4511dde46b5f4b1f7ccf45f6f93cc"
+  integrity sha512-8rxJ7unA8zWDCK8YaCYwtn/iYWqALMzaJNHRiEhZS9YpSXEKdMJ8TpiQIZU+WIJqdwMcbu1igIzYUeBZ7oaw6w==
+  dependencies:
+    tslib "^2.0.0"
+
 quick-lru@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
@@ -7359,7 +7343,7 @@ trim-repeated@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-tslib@^1.10.0, tslib@^1.11.1:
+tslib@^1.10.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
@@ -7368,6 +7352,11 @@ tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
