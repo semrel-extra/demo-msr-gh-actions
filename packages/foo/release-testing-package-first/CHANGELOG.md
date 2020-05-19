@@ -1,3 +1,15 @@
+# @antongolub/release-testing-package-first [4.9.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.8.0...@antongolub/release-testing-package-first@4.9.0) (2020-05-19)
+
+
+### Bug Fixes
+
+* tech release ([73e5394](https://github.com/antongolub/release-testing/commit/73e5394086ec1b0a86d9bbe2a4079ba4e9c118a0))
+
+
+### Features
+
+* foobar ([056f7aa](https://github.com/antongolub/release-testing/commit/056f7aac2b8cca1b0ff60fe407607af365be3a62))
+
 # @antongolub/release-testing-package-first [4.8.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.7.3...@antongolub/release-testing-package-first@4.8.0) (2020-05-19)
 
 
