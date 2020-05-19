@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-first [4.8.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.7.3...@antongolub/release-testing-package-first@4.8.0) (2020-05-19)
+
+
+### Features
+
+* tech release ([aa77b59](https://github.com/antongolub/release-testing/commit/aa77b59c1db6d880c3664eb33eec7bf66bdd2343))
+
 ## @antongolub/release-testing-package-first [4.7.3](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.7.2...@antongolub/release-testing-package-first@4.7.3) (2020-05-19)
 
 
