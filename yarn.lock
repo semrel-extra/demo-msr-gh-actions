@@ -971,10 +971,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.4.4-beta.11":
-  version "2.4.4-beta.11"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.11.tgz#1ddca683c31fbf9cf3b6d33cb49d91742b8a0333"
-  integrity sha512-UB/RimAuZ3Uf6PGTL5lIMzW1/S2eRd5sDu59Nmv1mTB+LbnlCT3y6vAgneRCL92wiTPC9EIJSpYQ5SE2WpAMTQ==
+"@qiwi/multi-semantic-release@^2.4.4-beta.15":
+  version "2.4.4-beta.15"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.4.4-beta.15.tgz#bb53896bfb034342f716761fa1c2376567e81c54"
+  integrity sha512-WIIK8r6hj+FYUKuyhp+lbiNsl3u+LcopTe3MJQrWRZS2zDUB0IlNbzB1lMWxMoarmMtNdfQ1bFG+LwtZ/+6ZcA==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
@@ -984,6 +984,7 @@
     git-log-parser "^1.2.0"
     lodash "^4.17.15"
     meow "^6.0.1"
+    promise-events "^0.1.8"
     queuefy "^1.1.0"
     require-in-the-middle "^5.0.3"
     semantic-release "^17.0.4"
@@ -5894,6 +5895,11 @@ process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
+
+promise-events@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/promise-events/-/promise-events-0.1.8.tgz#8c6724de7fae34f2e54a2c6e1cd068ee3d449a89"
+  integrity sha512-xg8Hyy8uwq5dJeSvwxtCLXGYTBFPoQyaQDBR6FheTRUBTclByz/yTaEcXsYvd6TAPwAM0ude+Bu0Shvkj2OK8g==
 
 promise-inflight@^1.0.1, promise-inflight@~1.0.1:
   version "1.0.1"
