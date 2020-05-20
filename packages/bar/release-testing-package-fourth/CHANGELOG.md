@@ -1,3 +1,50 @@
+# @antongolub/release-testing-package-fourth [4.5.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.4.0...@antongolub/release-testing-package-fourth@4.5.0) (2020-05-20)
+
+
+### Bug Fixes
+
+* release ([fa7c007](https://github.com/antongolub/release-testing/commit/fa7c007ed12ede920c0da0a01d59dd7d994fe358))
+* tech release ([17325cf](https://github.com/antongolub/release-testing/commit/17325cfa682472f7c9550e1d8d6904cbda214fb0))
+* tech release ([73e5394](https://github.com/antongolub/release-testing/commit/73e5394086ec1b0a86d9bbe2a4079ba4e9c118a0))
+* tech release ([8c516b4](https://github.com/antongolub/release-testing/commit/8c516b40b8a5ed6a5abf72a3604af5b9890ea2f3))
+* tech release ([0135471](https://github.com/antongolub/release-testing/commit/013547165416a6a1b5f0ee5d7279b6c2b57325c4))
+* tech release ([f0adc9e](https://github.com/antongolub/release-testing/commit/f0adc9e69219fddd77abce54e77a6660595974cc))
+* test release ([753c001](https://github.com/antongolub/release-testing/commit/753c001bac9da4b7875e3de0504758994b767190))
+
+
+### Features
+
+* foobar ([056f7aa](https://github.com/antongolub/release-testing/commit/056f7aac2b8cca1b0ff60fe407607af365be3a62))
+* tech release ([3e77468](https://github.com/antongolub/release-testing/commit/3e77468aa681543e39c25e115b57688585d547e3))
+* tech release ([1b58fe8](https://github.com/antongolub/release-testing/commit/1b58fe8abcf6550f57fb997d93ec4e20b461b988))
+* tech release ([28f1ce2](https://github.com/antongolub/release-testing/commit/28f1ce29acced06ac25c3293c550c9ff5eaf7d63))
+* tech release ([aa77b59](https://github.com/antongolub/release-testing/commit/aa77b59c1db6d880c3664eb33eec7bf66bdd2343))
+* tech release ([12077ca](https://github.com/antongolub/release-testing/commit/12077ca8e2f78205986026a4eb6637e32b3f570b))
+* tech release ([2fe9324](https://github.com/antongolub/release-testing/commit/2fe9324e943034e81f502a76611ec44249c47256))
+
+
+### Performance Improvements
+
+* tech release ([bab7275](https://github.com/antongolub/release-testing/commit/bab727517c115338b9b6760a874d745c34e3afeb))
+* tech release ([2d57e21](https://github.com/antongolub/release-testing/commit/2d57e21cf886ce322a0fdecb04e274d9fb24d458))
+* tech release ([c2ac065](https://github.com/antongolub/release-testing/commit/c2ac0651d3c8124d0bb5ddd9e8c03072b9e19632))
+* tech release ([f6b6c16](https://github.com/antongolub/release-testing/commit/f6b6c16e521414f14625bd9749c66f04a43e460e))
+* tech release ([826840a](https://github.com/antongolub/release-testing/commit/826840a16c283f6f6666e3ab59cac2fb670d5a62))
+* tech release ([38aeea5](https://github.com/antongolub/release-testing/commit/38aeea5e14a648d945e7d20ff90beb03fe3e04f2))
+* tech release ([7825cfd](https://github.com/antongolub/release-testing/commit/7825cfd5c2248c2d962aad79f3cb4c0f5ec1d030))
+* tech release ([fcbe2a8](https://github.com/antongolub/release-testing/commit/fcbe2a8013bf936b3dea2a22f25429bc05be79f9))
+* tech release ([de80c58](https://github.com/antongolub/release-testing/commit/de80c5892b279c3c5cb49b1bca82816d38ad7f84))
+* tech release ([2a819b2](https://github.com/antongolub/release-testing/commit/2a819b27438081757b68b3e56140ebec36a4542d))
+* tech release ([468214e](https://github.com/antongolub/release-testing/commit/468214e23cdbb8a686484a14bebd0666ae9a9840))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 3.14.0
+
 # @antongolub/release-testing-package-fourth [4.4.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.3.2...@antongolub/release-testing-package-fourth@4.4.0) (2020-05-18)
 
 
