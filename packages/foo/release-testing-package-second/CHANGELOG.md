@@ -1,3 +1,18 @@
+## @antongolub/release-testing-package-second [3.16.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.16.0...@antongolub/release-testing-package-second@3.16.1) (2020-05-28)
+
+
+### Performance Improvements
+
+* tech release ([bc143cf](https://github.com/antongolub/release-testing/commit/bc143cf961970458fb28adf49d4eb544ac6336b5))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-first:** upgraded to 4.14.2
+
 # @antongolub/release-testing-package-second [3.16.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.15.1...@antongolub/release-testing-package-second@3.16.0) (2020-05-22)
 
 
