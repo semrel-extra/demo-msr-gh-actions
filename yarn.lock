@@ -985,10 +985,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^2.6.3-beta.6":
-  version "2.6.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.6.3-beta.6.tgz#0d3880c19a9fa5da03ac83a255fcf05c3d37b305"
-  integrity sha512-157d0S4DHxacfUCx2WLZJN2MVcmbuOjdblM/FVGz70Y7qVmKg3qNF5/ag4csA1GEcuEn10Zsja8z+KO8GPItww==
+"@qiwi/multi-semantic-release@^2.6.3-beta.7":
+  version "2.6.3-beta.7"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-2.6.3-beta.7.tgz#e673923b95fb08e6c71b0b56a6952dcd601d4443"
+  integrity sha512-v2QR8IMJvTow/Fi8w+PLBqZ3S2vOewo8r+9gH5+YhngjLaXwuqP126Pld+HsRnbToo+W/JtpUG8ju3NT7gXHJA==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
