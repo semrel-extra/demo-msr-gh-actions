@@ -1,6 +1,6 @@
 {
   "name": "@antongolub/release-testing-package-third",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "description": "release-testing-package-third",
   "main": "src/index.js",
   "repository": {
@@ -20,5 +20,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "optionalDependencies": {}
 }
