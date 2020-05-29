@@ -1,3 +1,18 @@
+# @antongolub/release-testing-package-second [3.18.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.17.1...@antongolub/release-testing-package-second@3.18.0) (2020-05-29)
+
+
+### Features
+
+* nodejs v14 ([cc744df](https://github.com/antongolub/release-testing/commit/cc744dfedf9680e932bed0a191b60d612080fade))
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-first:** upgraded to 4.15.0
+
 ## @antongolub/release-testing-package-second [3.17.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.17.0...@antongolub/release-testing-package-second@3.17.1) (2020-05-29)
 
 
