@@ -1,3 +1,10 @@
+## @antongolub/release-testing-package-first [4.14.3](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.14.2...@antongolub/release-testing-package-first@4.14.3) (2020-05-29)
+
+
+### Performance Improvements
+
+* up deps ([2016a0a](https://github.com/antongolub/release-testing/commit/2016a0acca2f4297d4540883c34381459e4d8e78))
+
 ## @antongolub/release-testing-package-first [4.14.2](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.14.1...@antongolub/release-testing-package-first@4.14.2) (2020-05-28)
 
 
