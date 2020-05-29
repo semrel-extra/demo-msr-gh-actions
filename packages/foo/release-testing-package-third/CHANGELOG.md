@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-third [3.7.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-third@3.6.0...@antongolub/release-testing-package-third@3.7.0) (2020-05-29)
+
+
+### Features
+
+* nodejs v14 ([cc744df](https://github.com/antongolub/release-testing/commit/cc744dfedf9680e932bed0a191b60d612080fade))
+
 # @antongolub/release-testing-package-third [3.6.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-third@3.5.3...@antongolub/release-testing-package-third@3.6.0) (2020-05-28)
 
 
