@@ -1,3 +1,10 @@
+## @antongolub/release-testing-package-second [3.19.3](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.19.2...@antongolub/release-testing-package-second@3.19.3) (2020-07-31)
+
+
+### Performance Improvements
+
+* tech release, drop gh-pages branch ([ef54835](https://github.com/antongolub/release-testing/commit/ef548355b1236553886710ea538fa272ce1feb91))
+
 ## @antongolub/release-testing-package-second [3.19.2](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.19.1...@antongolub/release-testing-package-second@3.19.2) (2020-07-14)
 
 
