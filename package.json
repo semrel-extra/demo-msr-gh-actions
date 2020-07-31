@@ -1,0 +1,43 @@
+{
+  "workspaces": [
+    "packages/foo/*",
+    "packages/bar/*"
+  ],
+  "private": true,
+  "name": "@antongolub/release-testing",
+  "version": "1.0.0",
+  "description": "Testing repo for release tools",
+  "main": "index.js",
+  "scripts": {
+    "clean": "lerna clean --yes && lerna run clean",
+    "build": "yarn clean && lerna run --stream build",
+    "test": "yarn clean && lerna run --stream test",
+    "bootstrap": "lerna bootstrap",
+    "release": "NODE_DEBUG=gh-pages DEBUG='semantic-release:gh-pages' multi-semantic-release",
+    "postupdate": "yarn && yarn bootstrap && npx yarn-audit-fix && yarn build && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "//github.com/antongolub/release-testing"
+  },
+  "author": "Anton Golub <mailbox@antongolub.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antongolub/release-testing/issues"
+  },
+  "homepage": "https://github.com/antongolub/release-testing#readme",
+  "devDependencies": {
+    "@qiwi/multi-semantic-release": "3.2.0",
+    "@qiwi/semantic-release-gh-pages-plugin": "4.0.2",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.0.7",
+    "@semantic-release/npm": "7.0.5",
+    "@semantic-release/release-notes-generator": "9.0.1",
+    "jsdoc": "^3.6.5",
+    "lerna": "^3.22.1",
+    "require-in-the-middle": "^5.0.3",
+    "semantic-release": "17.1.1"
+  }
+}
