@@ -13,7 +13,7 @@
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
-    "release": "NODE_DEBUG=gh-pages DEBUG='semantic-release:gh-pages' multi-semantic-release",
+    "release": "NODE_DEBUG=gh-pages DEBUG='semantic-release:*,msr:*' multi-semantic-release",
     "postupdate": "yarn && yarn bootstrap && npx yarn-audit-fix && yarn build && yarn test"
   },
   "repository": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/antongolub/release-testing#readme",
   "devDependencies": {
-    "@qiwi/multi-semantic-release": "3.2.0",
+    "@qiwi/multi-semantic-release": "3.8.3",
     "@qiwi/semantic-release-gh-pages-plugin": "4.0.3",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
