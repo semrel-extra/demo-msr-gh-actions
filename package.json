@@ -14,7 +14,7 @@
     "test": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
     "release": "NODE_DEBUG=gh-pages DEBUG='semantic-release:*,msr:*' multi-semantic-release",
-    "postupdate": "yarn && yarn bootstrap && npx yarn-audit-fix && yarn build && yarn test"
+    "postupdate": "yarn && yarn bootstrap && npx yarn-audit-fix --audit-level=moderate && yarn build && yarn test"
   },
   "repository": {
     "type": "git",
@@ -32,12 +32,11 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "9.0.0",
-    "@semantic-release/github": "7.0.7",
-    "@semantic-release/npm": "7.0.5",
+    "@semantic-release/github": "7.1.1",
+    "@semantic-release/npm": "7.0.6",
     "@semantic-release/release-notes-generator": "9.0.1",
     "jsdoc": "^3.6.5",
     "lerna": "^3.22.1",
-    "require-in-the-middle": "^5.0.3",
-    "semantic-release": "17.1.1"
+    "require-in-the-middle": "^5.0.3"
   }
 }
