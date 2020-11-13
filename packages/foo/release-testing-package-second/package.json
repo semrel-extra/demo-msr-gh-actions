@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-first": "4.18.1"
+    "@antongolub/release-testing-package-first": "4.18.x"
   },
   "devDependencies": {},
   "peerDependencies": {},

@@ -23,4 +23,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - NODE_DEBUG=gh-pages multi-semantic-release
+    - NODE_DEBUG=gh-pages multi-semantic-release --deps.release=minor --deps.bump=inherit
