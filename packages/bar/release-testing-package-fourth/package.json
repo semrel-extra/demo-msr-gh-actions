@@ -1,6 +1,6 @@
 {
   "name": "@antongolub/release-testing-package-fourth",
-  "version": "4.8.0",
+  "version": "4.9.0",
   "description": "release-testing-package-fourth",
   "main": "src/index.js",
   "repository": {
@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-second": "3.21.5"
+    "@antongolub/release-testing-package-second": "3.22.0"
   },
   "devDependencies": {},
   "peerDependencies": {},
