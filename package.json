@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/antongolub/release-testing#readme",
   "devDependencies": {
-    "@qiwi/multi-semantic-release": "^3.9.1",
+    "@qiwi/multi-semantic-release": "^3.9.2",
     "@qiwi/semantic-release-gh-pages-plugin": "5.0.2",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
