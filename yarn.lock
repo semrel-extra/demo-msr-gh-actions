@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@antongolub/release-testing-package-first@4.18.5":
-  version "4.18.5"
-  resolved "https://registry.yarnpkg.com/@antongolub/release-testing-package-first/-/release-testing-package-first-4.18.5.tgz#3e04eb647647f7dc73fbb8f6cbe0816f186eaac6"
-  integrity sha512-KP0Qq5+gU7XZyqkA4ggIoqETkGxnRqV3E+R2CdmeyLwf5tN/QcKvpebT4n7flhmKvwlQZycE1SW836KKBJuRBQ==
-
 "@babel/code-frame@^7.0.0":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -990,10 +985,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@qiwi/multi-semantic-release@^3.9.4":
-  version "3.9.4"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-3.9.4.tgz#74c8c7a31348342ae1bdd25e499f498fb2ef2a81"
-  integrity sha512-VGi+zWEdidIAUrz+dddnPSUp1qrg6VofFSb3gxW5jFZZLHlgtI85nNJILnTW4LTiVTHinbLjaeJBZx4CpIob+A==
+"@qiwi/multi-semantic-release@^3.9.5":
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-3.9.5.tgz#5ebb4ed431ea4208d06a41ac368c587f59e1d831"
+  integrity sha512-HI9HnUUOMSdQnHVIcXHzUMn29etePySieTL4RrbukDnemIqspLgEZ6KpJX1fOt6d4ZtRL0xl+gEQ+2xdHCmH/g==
   dependencies:
     bash-glob "^2.0.0"
     blork "^9.2.2"
@@ -3663,9 +3658,9 @@ inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.1, 
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ini@^1.3.2, ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 init-package-json@^1.10.3:
   version "1.10.3"
