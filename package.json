@@ -12,6 +12,7 @@
     "clean": "lerna clean --yes && lerna run clean",
     "build": "yarn clean && lerna run --stream build",
     "test": "yarn clean && lerna run --stream test",
+    "test:unit": "yarn clean && lerna run --stream test",
     "bootstrap": "lerna bootstrap",
     "release:debug": "NODE_DEBUG=gh-pages DEBUG='semantic-release:*,msr:*' multi-semantic-release",
     "release": "multi-semantic-release",
