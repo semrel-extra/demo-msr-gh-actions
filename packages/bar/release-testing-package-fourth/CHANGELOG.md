@@ -1,3 +1,13 @@
+## @antongolub/release-testing-package-fourth [4.11.2-beta.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.11.1...@antongolub/release-testing-package-fourth@4.11.2-beta.1) (2021-10-26)
+
+
+
+
+
+### Dependencies
+
+* **@antongolub/release-testing-package-second:** upgraded to 3.26.0-beta.1
+
 ## @antongolub/release-testing-package-fourth [4.11.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.11.0...@antongolub/release-testing-package-fourth@4.11.1) (2021-10-23)
 
 
