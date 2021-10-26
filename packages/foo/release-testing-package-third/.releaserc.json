@@ -1,5 +1,5 @@
 {
-  "branch": "master",
+  "branch": "beta",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
@@ -12,16 +12,6 @@
         "failComment": false
       }
     ],
-    "@semantic-release/git",
-    [
-      "@qiwi/semantic-release-gh-pages-plugin",
-      {
-        "branch": "gh-pages",
-        "msg": "docs updated <%= nextRelease.gitTag %>",
-        "src": "./packages/foo/release-testing-package-third/docs",
-        "dst": "./third",
-        "pullTagsBranch": ""
-      }
-    ]
+    "@semantic-release/git"
   ]
 }
