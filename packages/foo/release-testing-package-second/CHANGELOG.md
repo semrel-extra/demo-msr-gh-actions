@@ -1,3 +1,10 @@
+# @antongolub/release-testing-package-second [3.26.0-beta.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.25.0...@antongolub/release-testing-package-second@3.26.0-beta.1) (2021-10-26)
+
+
+### Features
+
+* test release ([b4b09ac](https://github.com/antongolub/release-testing/commit/b4b09acbdaaec1e253179bbc2915cbbdc6075b57))
+
 # @antongolub/release-testing-package-second [3.25.0](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-second@3.24.0...@antongolub/release-testing-package-second@3.25.0) (2021-10-23)
 
 
