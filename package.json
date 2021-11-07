@@ -4,7 +4,7 @@
     "packages/bar/*"
   ],
   "private": true,
-  "name": "@antongolub/release-testing",
+  "name": "@semrel-extra/demo-msr-gh-actions-monorepo",
   "version": "0.0.0",
   "description": "Testing repo for release tools",
   "main": "index.js",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "//github.com/antongolub/release-testing"
+    "url": "//github.com/semrel-extra/demo-msr-gh-actions"
   },
   "author": "Anton Golub <mailbox@antongolub.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antongolub/release-testing/issues"
+    "url": "https://github.com/semrel-extra/demo-msr-gh-actions/issues"
   },
-  "homepage": "https://github.com/antongolub/release-testing#readme",
+  "homepage": "https://github.com/semrel-extra/demo-msr-gh-actions#readme",
   "devDependencies": {
     "multi-semantic-release": "^2.9.1",
     "@qiwi/semantic-release-gh-pages-plugin": "5.1.1",
