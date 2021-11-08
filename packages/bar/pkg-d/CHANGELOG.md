@@ -1,3 +1,19 @@
+# @semrel-extra/demo-msr-cicd-pkg-d 1.0.0 (2021-11-08)
+
+
+### Features
+
+* initial release a, b, c, d, e ([3461dfc](https://github.com/semrel-extra/demo-msr-cicd/commit/3461dfc18e6a6cd904da44b367d558233a0caeb1))
+
+
+
+
+
+### Dependencies
+
+* **@semrel-extra/demo-msr-cicd-pkg-b:** upgraded to 1.0.0
+* **@semrel-extra/demo-msr-cicd-pkg-c:** upgraded to 1.0.0
+
 ## @antongolub/release-testing-package-fourth [4.11.1](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-fourth@4.11.0...@antongolub/release-testing-package-fourth@4.11.1) (2021-10-23)
 
 
