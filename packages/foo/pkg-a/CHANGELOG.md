@@ -1,3 +1,16 @@
+# @semrel-extra/demo-msr-cicd-pkg-a 1.0.0 (2021-11-08)
+
+
+### Bug Fixes
+
+* make all pkg public ([db60128](https://github.com/semrel-extra/demo-msr-cicd/commit/db60128fbaebf618d20b70e2546ebd2e78015f54))
+
+
+### Features
+
+* initial release a, b, c, d, e ([3461dfc](https://github.com/semrel-extra/demo-msr-cicd/commit/3461dfc18e6a6cd904da44b367d558233a0caeb1))
+* release a → c → d ([ac5d6aa](https://github.com/semrel-extra/demo-msr-cicd/commit/ac5d6aaae0a9fdd477efad9f9592a57cd5911e2d))
+
 ## @antongolub/release-testing-package-first [4.18.7](https://github.com/antongolub/release-testing/compare/@antongolub/release-testing-package-first@4.18.6...@antongolub/release-testing-package-first@4.18.7) (2020-11-23)
 
 
