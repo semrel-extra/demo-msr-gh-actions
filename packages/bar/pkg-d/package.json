@@ -1,7 +1,7 @@
 {
-  "name": "@antongolub/release-testing-package-second",
-  "version": "3.25.0",
-  "description": "release-testing-package-second",
+  "name": "@semrel-extra/demo-msr-gh-actions-pkg-d",
+  "version": "0.0.0",
+  "description": "@semrel-extra/demo-msr-gh-actions-pkg-d",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -19,9 +19,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antongolub/release-testing-package-first": "4.18.7"
+    "@semrel-extra/demo-msr-gh-actions-pkg-b": "0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@semrel-extra/demo-msr-gh-actions-pkg-c": "0.0.0"
+  },
   "peerDependencies": {},
   "optionalDependencies": {}
 }

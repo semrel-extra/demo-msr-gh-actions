@@ -1,7 +1,7 @@
 {
-  "name": "@antongolub/release-testing-package-third",
-  "version": "3.9.3",
-  "description": "release-testing-package-third",
+  "name": "@semrel-extra/demo-msr-gh-actions-pkg-e",
+  "version": "0.0.0",
+  "description": "@semrel-extra/demo-msr-gh-actions-pkg-e",
   "main": "src/index.js",
   "repository": {
     "type": "git",

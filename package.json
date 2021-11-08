@@ -6,7 +6,7 @@
   "private": true,
   "name": "@semrel-extra/demo-msr-gh-actions-monorepo",
   "version": "0.0.0",
-  "description": "Testing repo for release tools",
+  "description": "Demo repo to show how multi-semantic-release works with GitHub Actions",
   "main": "index.js",
   "scripts": {
     "clean": "lerna clean --yes && lerna run clean",
@@ -22,21 +22,13 @@
     "type": "git",
     "url": "//github.com/semrel-extra/demo-msr-gh-actions"
   },
-  "author": "Anton Golub <mailbox@antongolub.ru>",
+  "author": "Anton Golub <antongolub@antongolub.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/semrel-extra/demo-msr-gh-actions/issues"
   },
   "homepage": "https://github.com/semrel-extra/demo-msr-gh-actions#readme",
   "devDependencies": {
-    "multi-semantic-release": "^2.9.1",
-    "@qiwi/semantic-release-gh-pages-plugin": "5.1.1",
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/git": "10.0.0",
-    "@semantic-release/github": "8.0.1",
-    "@semantic-release/npm": "8.0.2",
-    "@semantic-release/release-notes-generator": "10.0.2",
     "jsdoc": "^3.6.7",
     "lerna": "^4.0.0"
   }

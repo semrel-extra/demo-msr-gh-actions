@@ -1,0 +1,25 @@
+{
+  "name": "@semrel-extra/demo-msr-gh-actions-pkg-b",
+  "version": "0.0.0",
+  "description": "@semrel-extra/demo-msr-gh-actions-pkg-b",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semrel-extra/demo-msr-gh-actions.git"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "jsdoc ./src --readme ./README.md --destination ./docs"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}
