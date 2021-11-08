@@ -135,7 +135,7 @@ jobs:
 
       - name: Install deps
         run: |
-          yarn global add @qiwi/semantic-release-gh-pages-plugin@5 @semantic-release/changelog@6 @semantic-release/commit-analyzer@9 @semantic-release/git@10 @semantic-release/github@8 @semantic-release/npm@8 @semantic-release/release-notes-generator@10
+          npm i -g multi-semantic-release@2 @qiwi/semantic-release-gh-pages-plugin@5 @semantic-release/changelog@6 @semantic-release/commit-analyzer@9 @semantic-release/git@10 @semantic-release/github@8 @semantic-release/npm@8 @semantic-release/release-notes-generator@10
           yarn --ignore-engines
           yarn bootstrap
 
@@ -148,4 +148,4 @@ jobs:
           GIT_COMMITTER_EMAIL: 'opensource@qiwi.com'
           GIT_AUTHOR_NAME: '@qiwibot'
           GIT_COMMITTER_NAME: '@qiwibot'
-        run: npm_config_yes=true npx multi-semantic-release@2
+        run: multi-semantic-release
