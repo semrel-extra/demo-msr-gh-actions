@@ -1,6 +1,10 @@
 {
   "name": "@semrel-extra/demo-msr-cicd-pkg-b",
   "version": "0.0.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "@semrel-extra/demo-msr-cicd-pkg-b",
   "main": "src/index.js",
   "repository": {
