@@ -18,8 +18,8 @@
       {
         "branch": "gh-pages",
         "msg": "docs updated <%= nextRelease.gitTag %>",
-        "src": "./packages/bar/release-testing-package-fourth/docs",
-        "dst": "./fourth",
+        "src": "./packages/bar/pkg-e/docs",
+        "dst": "./pkg-e",
         "pullTagsBranch": ""
       }
     ]
