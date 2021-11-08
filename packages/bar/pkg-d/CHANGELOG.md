@@ -1,3 +1,19 @@
+## @semrel-extra/demo-msr-cicd-pkg-d [1.0.1](https://github.com/semrel-extra/demo-msr-cicd/compare/@semrel-extra/demo-msr-cicd-pkg-d@1.0.0...@semrel-extra/demo-msr-cicd-pkg-d@1.0.1) (2021-11-08)
+
+
+### Bug Fixes
+
+* make all pkg public ([db60128](https://github.com/semrel-extra/demo-msr-cicd/commit/db60128fbaebf618d20b70e2546ebd2e78015f54))
+
+
+
+
+
+### Dependencies
+
+* **@semrel-extra/demo-msr-cicd-pkg-b:** upgraded to 1.0.0
+* **@semrel-extra/demo-msr-cicd-pkg-c:** upgraded to 1.0.0
+
 # @semrel-extra/demo-msr-cicd-pkg-d 1.0.0 (2021-11-08)
 
 
