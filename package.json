@@ -4,7 +4,7 @@
     "packages/bar/*"
   ],
   "private": true,
-  "name": "@semrel-extra/demo-msr-gh-actions-monorepo",
+  "name": "@semrel-extra/demo-msr-cicd-monorepo",
   "version": "0.0.0",
   "description": "Demo repo to show how multi-semantic-release works with GitHub Actions",
   "main": "index.js",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "//github.com/semrel-extra/demo-msr-gh-actions"
+    "url": "//github.com/semrel-extra/demo-msr-cicd"
   },
   "author": "Anton Golub <antongolub@antongolub.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/semrel-extra/demo-msr-gh-actions/issues"
+    "url": "https://github.com/semrel-extra/demo-msr-cicd/issues"
   },
-  "homepage": "https://github.com/semrel-extra/demo-msr-gh-actions#readme",
+  "homepage": "https://github.com/semrel-extra/demo-msr-cicd#readme",
   "devDependencies": {
     "jsdoc": "^3.6.7",
     "lerna": "^4.0.0"

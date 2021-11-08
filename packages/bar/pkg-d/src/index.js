@@ -1,1 +1,1 @@
-module.exports = {package: '@semrel-extra/demo-msr-gh-actions-pkg-d'}
+module.exports = {package: '@semrel-extra/demo-msr-cicd-pkg-d'}

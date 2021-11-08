@@ -1,11 +1,11 @@
 {
-  "name": "@semrel-extra/demo-msr-gh-actions-pkg-d",
+  "name": "@semrel-extra/demo-msr-cicd-pkg-d",
   "version": "0.0.0",
-  "description": "@semrel-extra/demo-msr-gh-actions-pkg-d",
+  "description": "@semrel-extra/demo-msr-cicd-pkg-d",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semrel-extra/demo-msr-gh-actions.git"
+    "url": "https://github.com/semrel-extra/demo-msr-cicd.git"
   },
   "files": [
     "README.md",
@@ -19,10 +19,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@semrel-extra/demo-msr-gh-actions-pkg-b": "0.0.0"
+    "@semrel-extra/demo-msr-cicd-pkg-b": "0.0.0"
   },
   "devDependencies": {
-    "@semrel-extra/demo-msr-gh-actions-pkg-c": "0.0.0"
+    "@semrel-extra/demo-msr-cicd-pkg-c": "0.0.0"
   },
   "peerDependencies": {},
   "optionalDependencies": {}

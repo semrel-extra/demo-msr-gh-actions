@@ -1,11 +1,11 @@
 {
-  "name": "@semrel-extra/demo-msr-gh-actions-pkg-b",
+  "name": "@semrel-extra/demo-msr-cicd-pkg-b",
   "version": "0.0.0",
-  "description": "@semrel-extra/demo-msr-gh-actions-pkg-b",
+  "description": "@semrel-extra/demo-msr-cicd-pkg-b",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semrel-extra/demo-msr-gh-actions.git"
+    "url": "https://github.com/semrel-extra/demo-msr-cicd.git"
   },
   "files": [
     "README.md",
