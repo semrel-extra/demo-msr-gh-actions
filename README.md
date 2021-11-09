@@ -3,9 +3,10 @@
 
 Demo repo to show how [multi-semantic-release](https://github.com/dhoulb/multi-semantic-release) works with CI/CD
 
-| Branch | CI/CD | Status
-|---|---|---
+| Branch | CI/CD | Status | Remark
+|---|---|---|---
 |[`master`](https://github.com/semrel-extra/demo-msr-cicd/tree/master) | [GitHub Actions](https://github.com/features/actions) | [![CI](https://github.com/semrel-extra/demo-msr-cicd/workflows/CI/badge.svg?branch=master)](https://github.com/semrel-extra/demo-msr-cicd/actions)
+|[`beta`](https://github.com/semrel-extra/demo-msr-cicd/tree/beta) | [GitHub Actions](https://github.com/features/actions) | [![CI](https://github.com/semrel-extra/demo-msr-cicd/workflows/CI/badge.svg?branch=beta)](https://github.com/semrel-extra/demo-msr-cicd/actions) | Pre-releases, beta-versions pipeline
 |[`travis`](https://github.com/semrel-extra/demo-msr-cicd/tree/travis) | [Travis CI](https://www.travis-ci.com/) | [![Release Status](https://app.travis-ci.com/semrel-extra/demo-msr-cicd.svg?branch=travis)](https://app.travis-ci.com/semrel-extra/demo-msr-cicd)
 
 ### Stack
