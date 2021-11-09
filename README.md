@@ -1,8 +1,11 @@
 # @semrel-extra/demo-msr-cicd
 
 Demo repo to show how [multi-semantic-release](https://github.com/dhoulb/multi-semantic-release) works with CI/CD
-* [`master`](https://github.com/semrel-extra/demo-msr-cicd/tree/master) — [GitHub Actions](https://github.com/features/actions)
-* [`travis`](https://github.com/semrel-extra/demo-msr-cicd/tree/travis) — [Travis CI](https://www.travis-ci.com/)
+
+| Branch | CI/CD | Status
+|---|---|---
+|[`master`](https://github.com/semrel-extra/demo-msr-cicd/tree/master) | [GitHub Actions](https://github.com/features/actions) | [![CI](https://github.com/semrel-extra/demo-msr-cicd/workflows/CI/badge.svg?branch=master)](https://github.com/semrel-extra/demo-msr-cicd/actions)
+|[`travis`](https://github.com/semrel-extra/demo-msr-cicd/tree/travis) | [Travis CI](https://www.travis-ci.com/) | [![Release Status](https://app.travis-ci.com/semrel-extra/demo-msr-cicd.svg?branch=travis)](https://app.travis-ci.com/semrel-extra/demo-msr-cicd)
 
 ### Stack
 * [yarn 1.x](https://classic.yarnpkg.com/en/docs/workspaces) (workspaces enabled, see root level `package.json`)
