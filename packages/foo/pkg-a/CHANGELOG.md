@@ -1,3 +1,15 @@
+# @semrel-extra/demo-msr-cicd-pkg-a [2.0.0-beta.1](https://github.com/semrel-extra/demo-msr-cicd/compare/@semrel-extra/demo-msr-cicd-pkg-a@1.1.0...@semrel-extra/demo-msr-cicd-pkg-a@2.0.0-beta.1) (2021-11-09)
+
+
+### Features
+
+* br release ([a57af37](https://github.com/semrel-extra/demo-msr-cicd/commit/a57af37897c5dc7555effdad4ef9d48cb9d8b6f2))
+
+
+### BREAKING CHANGES
+
+* bump major version
+
 # @semrel-extra/demo-msr-cicd-pkg-a [1.1.0](https://github.com/semrel-extra/demo-msr-cicd/compare/@semrel-extra/demo-msr-cicd-pkg-a@1.0.0...@semrel-extra/demo-msr-cicd-pkg-a@1.1.0) (2021-11-09)
 
 
