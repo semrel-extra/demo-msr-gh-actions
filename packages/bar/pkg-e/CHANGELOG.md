@@ -1,3 +1,10 @@
+# @semrel-extra/demo-msr-cicd-pkg-e [1.1.0](https://github.com/semrel-extra/demo-msr-cicd/compare/@semrel-extra/demo-msr-cicd-pkg-e@1.0.0...@semrel-extra/demo-msr-cicd-pkg-e@1.1.0) (2021-11-09)
+
+
+### Features
+
+* test beta release ([275123d](https://github.com/semrel-extra/demo-msr-cicd/commit/275123de47eddb10eeac9a8b83aad4a49d580700))
+
 # @semrel-extra/demo-msr-cicd-pkg-e 1.0.0 (2021-11-08)
 
 
