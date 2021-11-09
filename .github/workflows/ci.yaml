@@ -1,7 +1,7 @@
 # This is a Github Workflow that runs tests on any push or pull request.
 # If the tests pass and this is a push to the master branch it also runs Semantic Release.
 name: CI
-on: [push, pull_request]
+on: [push]
 jobs:
   init:
     name: init
@@ -80,42 +80,10 @@ jobs:
           retention-days: 1
           path: coverage
 
-  test_pr:
-    if: github.event_name == 'pull_request'
-    needs: build
-    strategy:
-      matrix:
-        os: [ ubuntu-20.04 ]
-        node-version: [ 14, 16 ]
-    name: Test (Node v${{ matrix.node-version }}, OS ${{ matrix.os }})
-    runs-on: ${{ matrix.os }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Restore target
-        uses: actions/download-artifact@v2
-        with:
-          name: target
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install deps
-        run: |
-          yarn --ignore-engines
-          yarn bootstrap
-      - name: Unit test only
-        if: matrix.node-version != '16' || matrix.os != 'ubuntu-20.04'
-        run: yarn test:unit
-      - name: Full test
-        if: matrix.node-version == '16' && matrix.os == 'ubuntu-20.04'
-        run: yarn test
-
   release:
     name: Release
     # https://github.community/t/trigger-job-on-tag-push-only/18076
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/beta'
     needs: test_push
     runs-on: ubuntu-20.04
     steps:
