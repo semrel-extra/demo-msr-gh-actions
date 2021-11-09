@@ -1,3 +1,10 @@
+# @semrel-extra/demo-msr-cicd-pkg-aa 1.0.0 (2021-11-09)
+
+
+### Features
+
+* travis release ([b050356](https://github.com/semrel-extra/demo-msr-cicd/commit/b050356d65b19586205c8f58bce90c5dc7a9224a))
+
 # @semrel-extra/demo-msr-cicd-pkg-aa 1.0.0 (2021-11-08)
 
 
