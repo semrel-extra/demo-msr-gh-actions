@@ -1,11 +1,11 @@
 {
-  "name": "@semrel-extra/demo-msr-cicd-pkg-b",
-  "version": "1.0.0",
+  "name": "@semrel-extra/demo-msr-cicd-pkg-bb",
+  "version": "0.0.0",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "description": "@semrel-extra/demo-msr-cicd-pkg-b",
+  "description": "@semrel-extra/demo-msr-cicd-pkg-bb",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -18,11 +18,13 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "jsdoc ./src --readme ./README.md --destination ./docs"
+    "build": "jsdoc src --readme ./README.md --destination ./docs"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@semrel-extra/demo-msr-cicd-pkg-aa": "0.0.0"
+  },
   "devDependencies": {},
   "peerDependencies": {},
   "optionalDependencies": {}

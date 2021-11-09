@@ -1,4 +1,4 @@
-# @semrel-extra/demo-msr-cicd-pkg-a 1.0.0 (2021-11-08)
+# @semrel-extra/demo-msr-cicd-pkg-aa 1.0.0 (2021-11-08)
 
 
 ### Bug Fixes

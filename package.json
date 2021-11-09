@@ -1,7 +1,6 @@
 {
   "workspaces": [
-    "packages/foo/*",
-    "packages/bar/*"
+    "packages/*"
   ],
   "private": true,
   "name": "@semrel-extra/demo-msr-cicd-monorepo",
