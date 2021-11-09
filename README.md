@@ -1,4 +1,5 @@
 # @semrel-extra/demo-msr-cicd
+[![multi-semantic-release](https://img.shields.io/badge/msr-%F0%9F%A4%96%20%F0%9F%93%A6%20%F0%9F%9A%80-b8e3fc.svg?style=flat)](https://github.com/dhoulb/multi-semantic-release) 
 
 Demo repo to show how [multi-semantic-release](https://github.com/dhoulb/multi-semantic-release) works with CI/CD
 
