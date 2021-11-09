@@ -20,7 +20,7 @@ Demo repo to show how [multi-semantic-release](https://github.com/dhoulb/multi-s
 * `pkg-e` is fully independent
 
 packages `a, b, c` belong to `packages/foo` scope
-`d` and `e` — to scope `packages/bar`
+`d` and `e` — `packages/bar`
 
 ### License
-MIT
+[MIT](./LICENSE)
