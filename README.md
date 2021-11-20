@@ -10,7 +10,7 @@ Demo repo to show how [multi-semantic-release](https://github.com/dhoulb/multi-s
 |[`travis`](https://github.com/semrel-extra/demo-msr-cicd/tree/travis) | [Travis CI](https://www.travis-ci.com/) | [![Release Status](https://app.travis-ci.com/semrel-extra/demo-msr-cicd.svg?branch=travis)](https://app.travis-ci.com/semrel-extra/demo-msr-cicd)
 
 ### Stack
-* [yarn 1.x](https://classic.yarnpkg.com/en/docs/workspaces) (workspaces enabled, see root level `package.json`)
+* [yarn 1.x](https://classic.yarnpkg.com/en/docs/workspaces) (workspaces enabled, see root level [`package.json`](package.json), [`.yarnrc`](.yarnrc))
 * [lerna 4.x](https://github.com/lerna/lerna)
 
 ### Monorepo structure
