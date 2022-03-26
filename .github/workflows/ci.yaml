@@ -58,7 +58,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Restore target
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: target
       - uses: actions/setup-node@v2
@@ -95,7 +95,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Restore target
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: target
       - uses: actions/setup-node@v2
@@ -126,7 +126,7 @@ jobs:
           persist-credentials: false
 
       - name: Restore target
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: target
       - uses: actions/setup-node@v2
