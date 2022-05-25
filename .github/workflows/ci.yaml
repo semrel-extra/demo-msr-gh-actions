@@ -11,8 +11,6 @@ jobs:
       skip-not: ${{ steps.ci-skip-step.outputs.ci-skip-not }}
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - id: ci-skip-step
         uses: mstachniuk/ci-skip@v1
 
@@ -24,11 +22,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Install deps
         run: |
           yarn --ignore-engines
@@ -55,15 +51,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+
       - name: Restore target
         uses: actions/download-artifact@v3
         with:
           name: target
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Install deps
         run: |
           yarn --ignore-engines
@@ -86,14 +81,13 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-20.04 ]
-        node-version: [ 14, 16 ]
+        node-version: [ 14, 18 ]
     name: Test (Node v${{ matrix.node-version }}, OS ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+
       - name: Restore target
         uses: actions/download-artifact@v3
         with:
@@ -106,10 +100,10 @@ jobs:
           yarn --ignore-engines
           yarn bootstrap
       - name: Unit test only
-        if: matrix.node-version != '16' || matrix.os != 'ubuntu-20.04'
+        if: matrix.node-version != '18' || matrix.os != 'ubuntu-20.04'
         run: yarn test:unit
       - name: Full test
-        if: matrix.node-version == '16' && matrix.os == 'ubuntu-20.04'
+        if: matrix.node-version == '18' && matrix.os == 'ubuntu-20.04'
         run: yarn test
 
   release:
@@ -122,7 +116,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          depth: 0
           persist-credentials: false
 
       - name: Restore target
@@ -131,7 +124,7 @@ jobs:
           name: target
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       - name: Install deps
         run: |
